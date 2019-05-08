@@ -20,7 +20,7 @@ _ = subject
     print(string)
 })
 
-subject.on(.next("test2")) // test2 출력
+subject.onNext("test2") // test2 출력
 subject.onNext("test3") // test3 출력
 
 ```
