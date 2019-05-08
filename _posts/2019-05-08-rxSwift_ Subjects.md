@@ -9,6 +9,7 @@
 1. PublishSubject
 - 구독이후에 Observable의 이벤트를 받는다. 예제에서 보면 .subscribe(구독)전에 test1을 값을 추가했지만 출력되지 않고 구독이후에
 on한 값들만 출력이 된다.
+![스크린샷 2019-05-08 오후 1 41 21](https://user-images.githubusercontent.com/45751308/57350316-9927c980-7198-11e9-9c2d-d52220b7c82d.png)
 
 
 ```c
