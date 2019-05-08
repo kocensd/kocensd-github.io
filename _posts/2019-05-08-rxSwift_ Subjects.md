@@ -10,6 +10,7 @@
 - 구독이후에 Observable의 이벤트를 받는다. 예제에서 보면 .subscribe(구독)전에 test1을 값을 추가했지만 출력되지 않고 구독이후에
 on한 값들만 출력이 된다.
 
+
 ```c
 let subject = PublishSubject<String>()
 
