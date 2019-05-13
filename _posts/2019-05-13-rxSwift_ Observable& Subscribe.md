@@ -23,3 +23,52 @@ observable4.subscribe(onNext: { (str) in
     print("completed")
 }).disposed(by: disposeBag)
 ```
+
+- observable 연산
+
+```c
+//1. map 변형
+_ = Observable.of(1, 2, 3, 4)
+    .map { value in
+    return value * 10
+    }.subscribe(onNext: { (result) in
+        print(result) // 1, 2, 3, 4
+    }).disposed(by: disposeBag)
+
+//2. flatMap 결합
+let flatmap1 = Observable.of(1,3)
+let flatmap2 = Observable.of(2,4)
+
+let plusFlatmap = Observable.of(flatmap1, flatmap2)
+
+plusFlatmap
+    .flatMap{ value in
+    return value
+    }.subscribe(onNext: { result in
+        print(result) // 1, 3, 2, 4
+    }).disposed(by: disposeBag)
+
+//3. scan 초기값이 필요하고 값 합산
+_ = Observable.of(1, 2, 3, 4, 5)
+    .scan(0, accumulator: {
+        return $0 + $1
+    }).subscribe(onNext: { (result) in
+        print(result) // 1, 3, 6, 10, 15
+    }).disposed(by: disposeBag)
+
+//4.1 filter 조건에 따른 데이터 추출
+_ = Observable.of(1, 2, 3, 4, 5, 6)
+    .filter {
+        return $0 % 2 == 0
+    }.subscribe(onNext: { (result) in
+        print(result)
+    }).disposed(by: disposeBag)
+
+//4.2 DistinctUntilChanged 변화가 있을때만 발생
+_ = Observable.of(1, 2, 2, 2, 3, 3, 4, 5)
+    .distinctUntilChanged()
+    .subscribe(onNext: { (result) in
+        print(result)
+    }).disposed(by: disposeBag)
+
+```
