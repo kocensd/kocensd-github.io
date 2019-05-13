@@ -68,7 +68,7 @@ _ = Observable.of(1, 2, 3, 4, 5, 6)
 _ = Observable.of(1, 2, 2, 2, 3, 3, 4, 5)
     .distinctUntilChanged()
     .subscribe(onNext: { (result) in
-        print(result)
+        print(result) // 1, 2, 3, 4, 5
     }).disposed(by: disposeBag)
 
 ```
