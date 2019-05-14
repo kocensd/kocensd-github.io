@@ -72,3 +72,25 @@ _ = Observable.of(1, 2, 2, 2, 3, 3, 4, 5)
     }).disposed(by: disposeBag)
 
 ```
+
+//5. combineLatest 결합
+
+```c
+var a = BehaviorRelay(value: 1)
+var b = BehaviorRelay(value: 2)
+
+let c = Observable
+    .combineLatest(a.asObservable(), b.asObservable()) {
+        $0 + $1
+    }
+    .filter { $0 >= 0 }
+    .map { $0 }
+
+c.subscribe(onNext: {
+    print($0)
+})
+a.accept(3) // 5
+a.accept(8) // 10
+a.accept(-8) // filter에 걸러짐
+
+```
