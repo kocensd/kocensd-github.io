@@ -1,0 +1,31 @@
+예제부터 천천히 시작하고 있는중.... 또 뭐가 달라졌나
+
+- 리스트뷰 페이지에 데이터 나열하기(기초)
+
+```c
+import SwiftUI
+
+struct User: Identifiable {
+    var id: Int
+    let name: String
+}
+
+struct ContentView : View {
+    let users = [User(id: 0, name: "Kyle0"),
+        User(id: 1, name: "Kyle1"),
+        User(id: 2, name: "Kyle2"),
+        User(id: 3, name: "Kyle3"),
+        User(id: 4, name: "Kyle4")
+    ]
+    
+    var body: some View {
+        NavigationView {
+            List(users) { user in
+                Text(user.name)
+            }
+            .navigationBarTitle(Text("Users"), displayMode: .large)
+        }
+    }
+}
+
+```
