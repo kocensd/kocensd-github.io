@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "제목"
+date:   2016-03-14 12:00:00 
+lastmod : 2016-03-15 12:00:00
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
+
 기존의 collectionview에 rx형태로 변경을 진행
 
 ```c
