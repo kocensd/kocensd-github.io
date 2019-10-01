@@ -6,7 +6,7 @@ sitemap :
   priority : 1.0
 ---
 
-https://user-images.githubusercontent.com/45751308/65927841-57910700-e436-11e9-87dc-59cbeb79d6a3.png
+- ![Image Alt 텍스트](https://user-images.githubusercontent.com/45751308/65927841-57910700-e436-11e9-87dc-59cbeb79d6a3.png)
 
 1. 연결할 웹사이트의 root경로에 해당 파일을 넣어준다
 - 웹사이트는 https이여야 하고 파일은 확장자가 있으면 안된다.
