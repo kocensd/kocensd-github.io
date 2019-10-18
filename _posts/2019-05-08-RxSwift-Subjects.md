@@ -68,4 +68,4 @@ subject.onNext("test3") // test3 출력
 ```
 
 4. Variable
-- 곧 중단될 예정임(BeHaviorRelay를 대신 사용권장) 패스
+- 곧 중단될 예정임 패스
