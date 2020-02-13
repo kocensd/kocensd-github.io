@@ -25,7 +25,7 @@ observable1.subscribe(onNext: { (str) in
 
 - 하지만 Observable은 상황에 따라서 background나 Main쪽에서 발생되게 할 수 있기 때문에 발생될 지점을 정해주는것이 좋다.
 기본적으로 background에서 돌고 화면 UI에 관여를 한다면 .observeOn(MainScheduler.instance)으로 Main에서 동작을 시켜주는 것이다.
-하지만 매번 이렇게 선언해주면 불편하기 때문에 Driver를 사용하는 것이다. Driver은 MainScheduler에서만 동작한다.
+하지만 매번 이렇게 선언해주면 불편하기 때문에 Driver를 사용하는 것이다. Driver은 MainThread에서만 동작한다.
 
 ```c
 @IBOutlet weak var idField: UITextField!
