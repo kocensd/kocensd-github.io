@@ -28,7 +28,6 @@ layout: default
   <div class="pagination">
     {% if page.previous.url %}
       <span class="prev" >
-<!--           <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}"> -->
           <a href="{{ page.previous.url }}">
             &#xE000; {{ page.previous.title }}
           </a>
@@ -36,7 +35,7 @@ layout: default
     {% endif %}
     {% if page.next.url %}
       <span class="next" >
-          <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
+          <a href="{{ page.next.url }}">
             {{ page.next.title }} &#xE001;
           </a>
       </span>
