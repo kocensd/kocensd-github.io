@@ -20,7 +20,7 @@ PID: 2542, TID: 117015, Thread name: (none), Queue name:
 - 푸시구현을 하고 앱 첫 실행시 권한설정이 뜨는데 이게 문제가 된것이다.(안그랬느데...)
 
 ```c
-//이부분쪽에 MainThread동작을 해주면 된다. (근데 몇시간 뒤에 지워도 로그가 안나타나지는게 이상함)
+//이부분쪽에 MainThread동작을 해주면 된다. 
 
 DispatchQueue.main.async {
   UIApplication.shared.registerForRemoteNotifications()
