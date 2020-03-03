@@ -1,10 +1,12 @@
 ---
 layout: post
-title: rxswift tableview사용해보기
+title: RxSwift로 tableview사용해보기
 sitemap :
   changefreq : daily
   priority : 1.0
 ---
+
+- RxSwift로 tableview구성하기
 
 ```c
 import UIKit
