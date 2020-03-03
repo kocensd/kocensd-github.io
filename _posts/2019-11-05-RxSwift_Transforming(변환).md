@@ -6,7 +6,9 @@ sitemap :
   priority : 1.0
 ---
 
+
 ```c
+
 // - buffer
 // - timeSpan: buffer 에 저장되는 시간간격, - count: 버퍼에 저장되는 최대 이벤트 갯수
 let bufferObservable = Observable<Int>.interval(1.0, scheduler: MainScheduler.instance)
