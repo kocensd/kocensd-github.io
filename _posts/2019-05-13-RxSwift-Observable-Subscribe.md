@@ -6,8 +6,10 @@ sitemap :
   priority : 1.0
 ---
 
+- Observable 생성 
 
 ```c
+
 let disposeBag = DisposeBag()
 
 //just 하나의 요소를 포함하는 Observable Sequence생성
