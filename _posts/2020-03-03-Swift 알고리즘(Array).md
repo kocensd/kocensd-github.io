@@ -97,7 +97,8 @@ test8.map { $0.count } //[3, 2, 4, 1]
 
 let test9 = [1, 2, 3, 4, 5]
 test9.map { Array(repeating: $0, count: $0) } //[[1], [2, 2], [3, 3, 3], [4, 4, 4, 4], [5, 5, 5, 5, 5]]
-test9.flatMap { Array(repeating: $0, count: $0) } //새로운 배열로 출력 해줌 [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5]
+//test9.flatMap { Array(repeating: $0, count: $0) } //새로운 배열로 출력 해줌 [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5]
+-> compactMap으로 변경됨
 
 let test10 = ["1", "두번째", "3", "네번째", "5"]
 test10.map { Int($0) } //[Optional(1), nil, Optional(3), nil, Optional(5)]
