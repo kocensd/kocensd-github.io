@@ -55,12 +55,12 @@ func bind(reactor: ReadViewControllerReactor) {
   }
   
    func reduce(state: ReadViewControllerReactor.State, mutation: ReadViewControllerReactor.Mutation) -> ReadViewControllerReactor.State {
+     var newState = state
      switch mutation {
-       var newState = state
        case let .getMemos(memo):
          newState.memos = memo
-         return newState
      }
+     return newState
    }
 ```
 
