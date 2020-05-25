@@ -10,7 +10,7 @@ sitemap :
 - <img src="https://user-images.githubusercontent.com/45751308/82796300-46f33c80-9eb0-11ea-83ea-e7a29ab85783.png" width="40%"></img>
 
 - ReadViewController.swift파일과 ReadViewControllerReactor 파일을 만들어줍니다.
-
+- 기본으로 realm에 저장되어 있는 메모리스트를 tableView에 보여지도록 함
 ```c
 //ReadViewController 
 
