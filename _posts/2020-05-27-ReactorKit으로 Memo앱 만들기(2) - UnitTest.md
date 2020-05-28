@@ -8,6 +8,7 @@ sitemap :
 
 - 저번에는 데이터를 가져오는것까지만 게시물을 올렸는데 delete까지 합쳐서 UnitTest를 작성해보려고 한다.
 - ReactorKit을 test하기 위해서는 RxTest와 RxExpect를 pods로 설치를 해주면 된다.
+- 완성본 https://github.com/kocensd/RxSwift 
 
 ```c
 class RxMemoTestTests: XCTestCase {
