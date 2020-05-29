@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ReactorKit으로 UnitTest(2)
+title: ReactorKit으로 Memo앱 만들기(2) - UnitTest
 sitemap :
   changefreq : daily
   priority : 1.0
