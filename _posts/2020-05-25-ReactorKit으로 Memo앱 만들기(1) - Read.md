@@ -7,7 +7,7 @@ sitemap :
 ---
 
 - Realm을 사용하여 curd가 가능한 간단한 샘플 메모앱을 만들어보기 (화면은 이런식으로 기본구성을 하였습니다)
-- <img src="https://user-images.githubusercontent.com/45751308/82796300-46f33c80-9eb0-11ea-83ea-e7a29ab85783.png" width="40%"></img>
+- <img src="https://user-images.githubusercontent.com/45751308/82796300-46f33c80-9eb0-11ea-83ea-e7a29ab85783.png" width="40%">
 
 - ReadViewController.swift파일과 ReadViewControllerReactor 파일을 만들어줍니다.
 - 기본으로 realm에 저장되어 있는 메모리스트를 tableView에 보여지도록 함
