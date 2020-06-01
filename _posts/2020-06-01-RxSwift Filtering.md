@@ -7,7 +7,6 @@ sitemap :
 ---
 
 ```c
-
 //Filtering Observables
 var disposeBag = DisposeBag()
 
