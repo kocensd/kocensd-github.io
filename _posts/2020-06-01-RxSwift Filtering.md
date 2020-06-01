@@ -6,6 +6,8 @@ sitemap :
   priority : 1.0
 ---
 
+- Rx의 Filtering operator
+
 ```c
 //Filtering Observables
 var disposeBag = DisposeBag()
