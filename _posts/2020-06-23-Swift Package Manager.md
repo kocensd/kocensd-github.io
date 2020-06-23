@@ -10,7 +10,7 @@ sitemap :
 - 대부분의 개발자들이 CocoaPods로 third-party를 사용하고 있지만 xcode에서 사용이 가능하도록 업데이트(?) 된 것이라고 합니다.
 - xcode11부터 기능이 통합됬다고 하는데 너무 늦은감이 있지만 나중에 적용할 수 있기 때문에 작성해둠
 
-- RxSwift 
+- RxSwift를 추가해보기
 
 - File -> Swift Packages -> Add Package Dependency 
 <img src="https://user-images.githubusercontent.com/45751308/85355072-d4c15680-b546-11ea-884b-e40a50615f2e.png" width="60%"></img>
