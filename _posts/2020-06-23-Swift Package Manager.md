@@ -15,12 +15,10 @@ sitemap :
 
 <img src="https://user-images.githubusercontent.com/45751308/85355105-e276dc00-b546-11ea-9ee0-738a8f1f7018.png" width="60%"></img>
 
-<img src="
-https://user-images.githubusercontent.com/45751308/85355110-e3a80900-b546-11ea-9fe7-1aca8b45073d.png" width="60%"></img>
+<img src="https://user-images.githubusercontent.com/45751308/85355110-e3a80900-b546-11ea-9fe7-1aca8b45073d.png" width="60%"></img>
 
 
-<img src="
-https://user-images.githubusercontent.com/45751308/85355116-e571cc80-b546-11ea-9bc8-ec195800ee02.png" width="60%"></img>
+<img src="https://user-images.githubusercontent.com/45751308/85355116-e571cc80-b546-11ea-9bc8-ec195800ee02.png" width="60%"></img>
 
 <img src="https://user-images.githubusercontent.com/45751308/85355120-e6a2f980-b546-11ea-9ac5-bc937c9180ec.png" width="60%"></img>
 
@@ -35,10 +33,8 @@ https://user-images.githubusercontent.com/45751308/85355116-e571cc80-b546-11ea-9
 
 
 
-<img src="
-https://user-images.githubusercontent.com/45751308/85355142-eb67ad80-b546-11ea-8688-e56d76ce482e.png" width="60%"></img>
-<img src="
-https://user-images.githubusercontent.com/45751308/85355147-ec98da80-b546-11ea-9b9d-7b0ebf5e206f.png" width="60%"></img>
+<img src="https://user-images.githubusercontent.com/45751308/85355142-eb67ad80-b546-11ea-8688-e56d76ce482e.png" width="60%"></img>
+<img src="https://user-images.githubusercontent.com/45751308/85355147-ec98da80-b546-11ea-9b9d-7b0ebf5e206f.png" width="60%"></img>
 
 
 
