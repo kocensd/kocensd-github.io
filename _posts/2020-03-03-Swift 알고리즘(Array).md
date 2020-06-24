@@ -75,11 +75,11 @@ test5.min { a, b in a.value > b.value } //Optional((key: "test3", value: 3))
 
 //요소 선택
 var test6 = [1, 2, 3, 4, 5, 6]
-test6.prefix(2) //지정된 길이(index아님)까지 요소를 반환함 [1, 2]
+- !! test6.prefix(2) //지정된 길이(index아님)까지 요소를 반환함 [1, 2]
 test6.prefix(through: 2) //지정된 위치까지 [1, 2, 3]
 test6.prefix(upTo: 2) //지정된 위치를 포함X [1, 2]
 
-test6.suffix(2) //[5, 6]
+- !! test6.suffix(2) //[5, 6]
 test6.suffix(from: 2) //지정된 위치에서부터 끝까지 [3, 4, 5, 6]
 
 
