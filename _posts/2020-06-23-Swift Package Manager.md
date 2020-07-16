@@ -23,7 +23,7 @@ sitemap :
 - 설치에 필요한 버전과 브랜치, commit버전으로도 설치가 가능한것 같은데 일단 version으로 진행
 - <img src="https://user-images.githubusercontent.com/45751308/85355110-e3a80900-b546-11ea-9fe7-1aca8b45073d.png" width="60%"></img>
 
-- RxBlocking은 사용해보지 안해서 나머지들꺼 체크하고 Finsh
+- RxBlocking은 사용해보지 않아서 나머지들꺼 체크하고 Finsh
 - <img src="https://user-images.githubusercontent.com/45751308/85355116-e571cc80-b546-11ea-9bc8-ec195800ee02.png" width="60%"></img>
 
 - 그렇게 하면 프로젝트 아래에 Swift Package Dependencies라고 생기면서 RxSwift가 나타난다.
