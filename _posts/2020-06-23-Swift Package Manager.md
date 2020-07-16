@@ -15,6 +15,7 @@ sitemap :
 - File -> Swift Packages -> Add Package Dependency 
 <img src="https://user-images.githubusercontent.com/45751308/85355072-d4c15680-b546-11ea-884b-e40a50615f2e.png" width="60%"></img>
 
+
 - RxSwift gitUrl을 적어준다 
 - <img src="https://user-images.githubusercontent.com/45751308/85355105-e276dc00-b546-11ea-9ee0-738a8f1f7018.png" width="60%"></img>
 
