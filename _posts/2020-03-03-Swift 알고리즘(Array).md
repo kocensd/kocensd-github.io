@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Swift 알고리즘(Array편)
+tags: [Algorithm]
 sitemap :
   changefreq : daily
   priority : 1.0
