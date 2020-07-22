@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Observable
+tags: [RxSwift]
 sitemap :
   changefreq : daily
   priority : 1.0
