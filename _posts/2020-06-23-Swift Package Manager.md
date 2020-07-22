@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Swift Package Manager
+tags: [Swift]
 sitemap :
   changefreq : daily
   priority : 1.0
