@@ -1,6 +1,7 @@
 ---
 layout: post
 title: rxswift-collectionview 사용하기
+tags: [RxSwift]
 sitemap :
   changefreq : daily
   priority : 1.0
