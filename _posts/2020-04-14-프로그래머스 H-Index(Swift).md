@@ -1,3 +1,12 @@
+---
+layout: post
+title: 프로그래머스 H-Index(Swift)
+tags: [Algorithm]
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
+
 ###### 문제 해설
 
 - 일단 H-Index가 무엇인지부터 알면 간단하게 풀 수 있는 문제다.
