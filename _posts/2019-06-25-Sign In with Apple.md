@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sign in with Apple
+tags: [Swift]
 sitemap :
   changefreq : daily
   priority : 1.0
