@@ -1,4 +1,11 @@
-
+---
+layout: post
+title: Reactorkit 적용하기
+tags: [RxSwift]
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
 
 - 위키백과 api를 호출하여 테이블 뷰에 목록 보여주기
 - 추가 개발사항 (통신클래스)
