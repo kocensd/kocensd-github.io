@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RxSwift로 tableview사용해보기
+tags: [RxSwift]
 sitemap :
   changefreq : daily
   priority : 1.0
