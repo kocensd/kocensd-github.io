@@ -1,6 +1,7 @@
 ---
 layout: post
 title: universal link 간단하게 테스트하기
+tags: [Swift]
 sitemap :
   changefreq : daily
   priority : 1.0
