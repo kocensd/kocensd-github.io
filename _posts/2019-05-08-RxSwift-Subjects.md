@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Subjects 종류
+tags: [RxSwift]
 sitemap :
   changefreq : daily
   priority : 1.0
