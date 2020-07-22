@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Main Thread Checker 오류 
+tags: [Swift]
 sitemap :
   changefreq : daily
   priority : 1.0
