@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ReactorKit으로 Memo앱 만들기(2) - UnitTest
+tags: [RxSwift]
 sitemap :
   changefreq : daily
   priority : 1.0
