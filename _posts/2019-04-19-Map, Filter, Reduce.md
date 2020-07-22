@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 고차함수 사용하기
+tags: [Swift]
 sitemap :
   changefreq : daily
   priority : 1.0
