@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RxSwift Filtering
+tags: [RxSwift]
 sitemap :
   changefreq : daily
   priority : 1.0
