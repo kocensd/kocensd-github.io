@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RxSwift + MVVM 구구단작성하기
+tags: [RxSwift]
 sitemap :
   changefreq : daily
   priority : 1.0
