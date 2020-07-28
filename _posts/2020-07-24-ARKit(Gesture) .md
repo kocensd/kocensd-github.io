@@ -9,7 +9,7 @@ sitemap :
 
 ## ARKit Gesture사용하기
 - 기본 UITapGestureRecognizer사용하여 제스쳐를 감지할 수 있지만 RxGesture를 사용하여 Gesture를 감지해본다.
-- SMP(https://github.com/kocensd/kocensd.github.io/blob/master/_posts/2020-06-23-Swift%20Package%20Manager.md)를 사용하여 RxGesture, RxSwift를 설치한다.
+- SPM(https://github.com/kocensd/kocensd.github.io/blob/master/_posts/2020-06-23-Swift%20Package%20Manager.md)를 사용하여 RxGesture, RxSwift를 설치한다.
 
 ###### tap Gesture를 사용하여 box 색상변경하기
 ```c
