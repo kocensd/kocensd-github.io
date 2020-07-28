@@ -19,7 +19,7 @@ sitemap :
 
 
 ###### RxSwift gitUrl을 적어준다 
-- <img src="https://user-images.githubusercontent.com/45751308/85355105-e276dc00-b546-11ea-9ee0-738a8f1f7018.png" width="60%">
+<img src="https://user-images.githubusercontent.com/45751308/85355105-e276dc00-b546-11ea-9ee0-738a8f1f7018.png" width="60%">
 
 ###### 설치에 필요한 버전과 브랜치, commit버전으로도 설치가 가능한것 같은데 일단 version으로 진행
 <img src="https://user-images.githubusercontent.com/45751308/85355110-e3a80900-b546-11ea-9fe7-1aca8b45073d.png" width="60%">
