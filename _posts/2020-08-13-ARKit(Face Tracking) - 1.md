@@ -7,7 +7,7 @@ sitemap :
   priority : 1.0
 ---
 
-## ARKit Face Tracking - 얼굴 추적
+#### ARKit Face Tracking - 얼굴 추적
 - ARFaceTrackingConfiguration을 사용하여 얼굴을 추적해보자
 
 ###### 기본세팅
