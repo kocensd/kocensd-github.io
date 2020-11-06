@@ -12,6 +12,7 @@ sitemap :
 
 ### 1. static형식으로 만들기
 1. plist에 추가해주기
+
 ```c
 <key>UIApplicationShortcutItems</key>
 	<array>
@@ -45,6 +46,7 @@ sitemap :
 ```
 
 2. Appdelegate.swift에서 메뉴 선택시 관련 함수를 작성해준다. (생각보다 간단하다) //여기서 앱이 background 상태인지 kill 상태인지 구분헤서 처리해주는것이 좋다.
+
 ```c
 func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {        
         guard let actionType = QuickAction(rawValue: shortcutItem.type) else {
@@ -75,7 +77,6 @@ local newPlist=${project_path}/Info.plist
 - 서버에서 내려오는 데이터에 따라서 숏컷 아이템을 구성해야한다면? 그렇다면 굳이 plist에 추가해주지 않고 코드로 작성해주면된다.
 - Appdelegate에 작성된 호출 함수는 그대로 두고 서버에서 데이터를 받아온 뒤 MainViewController에서 숏컷 아이템을 넣어준다
 
-- MainViewController
 ```c
 let icon1 = UIApplicationShortcutIcon.init(templateImageName: "menu_delivery") //아이콘 이름
 let icon2 = UIApplicationShortcutIcon.init(templateImageName: "menu_page")
