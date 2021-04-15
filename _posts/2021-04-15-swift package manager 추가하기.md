@@ -28,10 +28,10 @@ sitemap :
 <img src="https://user-images.githubusercontent.com/45751308/114885443-9c766600-9e41-11eb-8f3c-69ccfb97dcf1.png" width="60%">
 
 5. 추가가 된 모습이고 RxSwift가 설치가 되고 있는 모습이다.
-<img src="https://user-images.githubusercontent.com/45751308/114884683-ed398f00-9e40-11eb-971a-b788eb85667b.png" width="60%">
+<img src="https://user-images.githubusercontent.com/45751308/114884766-fcb8d800-9e40-11eb-8ad8-f7aea3cc894c.png" width="60%">
 
 6. target -> General의 framework에서 새로만든 package를 추가해준다.
-<img src="https://user-images.githubusercontent.com/45751308/114884766-fcb8d800-9e40-11eb-8ad8-f7aea3cc894c.png" width="60%">
+<img src="https://user-images.githubusercontent.com/45751308/114886596-a2b91200-9e42-11eb-94ae-fc4c8571bf95.png" width="60%">
 
 7. ViewController.swift파일에서 이제 import RxSwift를 할수있게 된다.
 <img src="https://user-images.githubusercontent.com/45751308/114884927-2245e180-9e41-11eb-864b-030f70444ea3.png" width="60%">
