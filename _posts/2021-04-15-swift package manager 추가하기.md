@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS 개발자 이직
+title: SPM으로 변경
 tags: [Swift]
 sitemap :
   changefreq : daily
