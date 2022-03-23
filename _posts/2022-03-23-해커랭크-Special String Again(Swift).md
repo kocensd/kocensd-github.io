@@ -14,7 +14,7 @@ sitemap :
 - 특별한 단어찾기 aaa 모든 문자가 같던지 aabaa 가운데 글자만 빼고 나머지 문자가 같은지
 
 
-실패
+실패! (TimeOut처리가 되는게 아니라 중간에 멈춰버림 조건이 이상한거같은데...)
 - 회문을 돌려서 비교값이 서로 다르면 앞뒤 문자열을 비교한다. 아이패드 산기념으로 
 <img width="40%" src="https://user-images.githubusercontent.com/45751308/159646719-8bb2a042-ef7b-45e2-ba02-d74af1cca155.jpg">
 
