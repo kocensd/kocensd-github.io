@@ -16,7 +16,7 @@ sitemap :
 
 실패
 - 회문을 돌려서 비교값이 서로 다르면 앞뒤 문자열을 비교한다. 아이패드 산기념으로 
-<img width="30%" src="https://user-images.githubusercontent.com/45751308/159646719-8bb2a042-ef7b-45e2-ba02-d74af1cca155.jpg">
+<img width="40%" src="https://user-images.githubusercontent.com/45751308/159646719-8bb2a042-ef7b-45e2-ba02-d74af1cca155.jpg">
 
 ```c
 func substrCount(n: Int, s: String) -> Int {
@@ -43,7 +43,7 @@ func substrCount(n: Int, s: String) -> Int {
 ```
 
 - 해설문 참고
-<img width="30%" src="https://user-images.githubusercontent.com/45751308/159646726-ecb1d9c1-1331-436a-bafd-63fb10e63b95.jpg">
+<img width="40%" src="https://user-images.githubusercontent.com/45751308/159646726-ecb1d9c1-1331-436a-bafd-63fb10e63b95.jpg">
 
 ```c
 func substrCount(n: Int, s: String) -> Int {
