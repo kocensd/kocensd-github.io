@@ -11,7 +11,7 @@ sitemap :
 iOS15 이상 기준
 좀 작성좀 하자 한달에 한번씩이라도 ... 구글 검색하기 찾기 귀찮다
 
-<img width="50%" src="https://github.com/kocensd/kocensd.github.io/assets/45751308/709db102-9409-4f3e-a447-63fd1bddfac0.png">
+<img width="30%" src="https://github.com/kocensd/kocensd.github.io/assets/45751308/709db102-9409-4f3e-a447-63fd1bddfac0.png">
 
 ```c
 
