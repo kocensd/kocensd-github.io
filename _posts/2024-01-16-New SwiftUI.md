@@ -11,11 +11,11 @@ sitemap :
 iOS15 이상 기준
 좀 작성좀 하자 한달에 한번씩이라도 ... 구글 검색하기 찾기 귀찮다
 
+    <img width="50%" src="[https://user-images.githubusercontent.com/45751308/206107845-0d86b7e2-d848-44a0-ab77-5009fd29d1e9](https://github.com/kocensd/kocensd.github.io/assets/45751308/709db102-9409-4f3e-a447-63fd1bddfac0).png">
+    
 ```c
 
 struct AlertView: View {
-    ![스크린샷 2024-01-16 오전 8 56 50](https://github.com/kocensd/kocensd.github.io/assets/45751308/709db102-9409-4f3e-a447-63fd1bddfac0)
-
     @State private var isShow = false
     
     var body: some View {
